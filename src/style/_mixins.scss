@@ -1,0 +1,44 @@
+@import "_variables.scss";
+
+
+@mixin basicButton{
+    font-family: 'regular';
+    font-size: 13px;
+    color: $defalutFont;
+    letter-spacing: 1.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $defalutFont;
+    &:hover{
+        color: $themeGrey;
+        background-color: $defalutFont;
+    } 
+}
+
+@mixin background($height){
+    box-sizing: border-box ;
+    background-color: $themeGrey;
+    padding-left: 35%;
+    padding-right: 10%;
+    height: $height;
+    
+}
+
+@mixin circle($width, $height, $color){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $width;
+    height: $height;
+    background-color: $color;
+    color: white;
+    border-radius: 50%;
+    font-family: 'thin-flat';
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    &:hover{
+        font-size: 23px;
+    }
+
+}

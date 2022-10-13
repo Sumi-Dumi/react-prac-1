@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "thin-flat";
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@import "_mixins.scss";
+@import "_variables.scss";
+
+
+
+.background{
+    @include background(100vh);
+    .grid-skills{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        .first-circle{
+            grid-row: span 2;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                @include circle(400px,400px, rgb(112, 112, 112));
+            }    
+        }
+        .second-circle{
+            display: flex;
+            align-items: flex-end;
+            div{
+                @include circle(150px, 150px, rgb(176, 176, 176));
+                flex-direction: column;
+                line-height: 1.3;
+            }
+        }
+        .third-circle{
+            display: flex;
+            align-items: center;
+            div{
+                @include circle(80px, 80px, rgb(61, 61, 61));
+            }
+
+        }
+    }
+}

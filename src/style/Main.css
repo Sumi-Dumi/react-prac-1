@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "thin-flat";
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: "regular";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "serif_";
+  src: url(../fonts/BodoniModa-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+  font-family: "pfont";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.navbar {
+  background-color: #dfdfdf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: fixed;
+}
+
+button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 10px;
+  font-family: 'thin-flat';
+  letter-spacing: 1.7px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=Main.css.map */

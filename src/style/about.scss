@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "thin-flat";
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: "serif_";
+    src: url(../fonts/BodoniModa-Italic-VariableFont_opsz\,wght.ttf);
+}
+@font-face{
+    font-family: "pfont";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+@import "_mixins.scss";
+@import "_variables.scss";
+
+
+.background{
+    @include background(100vh);
+    .margin{
+        height: 200px;
+    }
+    .title{
+        font-family: 'thin-flat';
+        font-size: 30px;
+        letter-spacing: 1.7px;
+        margin-bottom: 20px;
+        color: $defalutFont;
+    }
+    .wrapper{
+        display: flex;
+        .link-button{
+            @include basicButton();
+            width: 120px;
+            height: 27px;
+            margin-right: 17px;
+        }
+    }
+    .subheading{
+        margin-top: 25px;
+        font-family: 'serif_';
+        color: $defalutFont;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    p{
+        margin-top: 35px;
+        font-family: 'pfont';
+        color: rgba(0,0,0,0.35);
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
