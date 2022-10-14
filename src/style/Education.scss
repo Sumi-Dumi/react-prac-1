@@ -12,7 +12,14 @@
     font-family: "pfont";
     src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
 
+.background{
+    @include background(120vh);
+}
 
 .grid-education {
     display: grid;
@@ -40,14 +47,38 @@
                 margin-right: 20px;
                 width: 150px;
                 height: 30px;
-                
+                margin-bottom: 50px;
+
             }
         }
+        .wrapper-projects{
+            display: flex;
+            margin-bottom: 20px;
+            .imgHolder{
+                img{
+                    width: 80px;
+                }
+            }
+            
+            .projectHolder{
+                margin-left: 40px;
+                
+                .language{
+                    font-size: 20px;
+                    font-family: 'pfont';
+                    color: $defalutFont;
+                    margin-bottom: 10px;
+                }
+                .project-description{
+                    font-size: 18px;
+                    font-family: 'regular';
+                    color: $lightFont;
 
-        
-
-        
-
+                }
+            }
+    
+        }
     }
+    
     
 }

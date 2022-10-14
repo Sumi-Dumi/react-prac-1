@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "thin-flat";
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: "pfont";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+@import "_mixins.scss";
+@import "_variables.scss";
+
+.background{
+    @include background(150vh);
+    h3{
+        margin-bottom: 10px;
+    }
+    h5{
+        font-family: regular;
+        color: $lightFont;
+        letter-spacing: 1.5px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+.gridForWork{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    .myRole-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myRole-box{
+        width: 200px;
+        height: 200px;
+        background-color: $defalutFont;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $themeGrey;
+        font-family: 'pfont';
+        letter-spacing: 1.5px;
+        margin-bottom: 30px;
+    }
+}
+
+.myRole{
+    ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    li{
+        margin-bottom: 20px;
+        font-family: 'pfont';
+        line-height: 20px;
+        color: $defalutFont;
+        width: 90%;
+
+    }
+}

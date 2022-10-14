@@ -21,8 +21,7 @@
     background-color: $themeGrey;
     padding-left: 35%;
     padding-right: 10%;
-    height: $height;
-    
+    height: $height;   
 }
 
 @mixin circle($width, $height, $color){

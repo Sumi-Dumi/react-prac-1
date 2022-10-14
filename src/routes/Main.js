@@ -4,11 +4,11 @@ import "../style/Main.css";
 import About from "./About";
 import Skills from "./Skills";
 import Education from "./Education";
+import WorkExperience from "./WorkExperience";
+import Portfolio from "./Portfolio";
 
 function Nav() {
-
     const [icon, clickedIcon] = useState("About");
-
     return (
         <div>
             <nav className="navbar">
@@ -27,13 +27,11 @@ function Nav() {
                 {icon === "About" && <About />}
                 {icon === "Skills" && <Skills />}
                 {icon === "Education" && <Education />}
-                {icon === "Work experience" && <Skills />}
-                {icon === "Portfolio" && <Skills />}
+                {icon === "Work experience" && <WorkExperience />}
+                {icon === "Portfolio" && <Portfolio />}
             
             </div>
-        </div>
-        
-        
+        </div>  
     );
 }
 
@@ -43,7 +41,6 @@ function Main() {
             <Nav />
         </div>
     );
-    
 }
 
 export default Main;

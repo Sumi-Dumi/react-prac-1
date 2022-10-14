@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "thin-flat";
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+
+.background {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #dfdfdf;
+  padding-left: 35%;
+  padding-right: 10%;
+  height: 120vh;
+}
+
+.wrapper-works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.wrapper-works .wrapper2-works .thumbnail {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 50%;
+}
+
+.wrapper-works .wrapper2-works .thumbnail img {
+  width: 100%;
+}
+
+.wrapper-works .wrapper2-works .workInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: 50px;
+}
+
+.wrapper-works .wrapper2-works .workInfo .workTitle {
+  padding: 13px;
+  font-family: thin-flat;
+  letter-spacing: 1.5px;
+}
+
+.wrapper-works .wrapper2-works .workInfo a {
+  padding: 12px;
+}
+
+.wrapper-works .wrapper2-works .workInfo a img {
+  width: 20px;
+}
+/*# sourceMappingURL=Portfolio.css.map */

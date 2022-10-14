@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "thin-flat";
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: "regular";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "pfont";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.background {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #dfdfdf;
+  padding-left: 35%;
+  padding-right: 10%;
+  height: 150vh;
+}
+
+.background h3 {
+  margin-bottom: 10px;
+}
+
+.background h5 {
+  font-family: regular;
+  color: rgba(0, 0, 0, 0.3);
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.gridForWork {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.gridForWork .myRole-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gridForWork .myRole-box {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dfdfdf;
+  font-family: 'pfont';
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+
+.myRole ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.myRole li {
+  margin-bottom: 20px;
+  font-family: 'pfont';
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 90%;
+}
+/*# sourceMappingURL=WorkExperience.css.map */

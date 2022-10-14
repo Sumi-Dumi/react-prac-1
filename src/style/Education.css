@@ -13,6 +13,20 @@
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: "regular";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.background {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #dfdfdf;
+  padding-left: 35%;
+  padding-right: 10%;
+  height: 120vh;
+}
+
 .grid-education {
   display: -ms-grid;
   display: grid;
@@ -62,10 +76,39 @@
   margin-right: 20px;
   width: 150px;
   height: 30px;
+  margin-bottom: 50px;
 }
 
 .grid-education .description .wrapper div:hover {
   color: #dfdfdf;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grid-education .description .wrapper-projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.grid-education .description .wrapper-projects .imgHolder img {
+  width: 80px;
+}
+
+.grid-education .description .wrapper-projects .projectHolder {
+  margin-left: 40px;
+}
+
+.grid-education .description .wrapper-projects .projectHolder .language {
+  font-size: 20px;
+  font-family: 'pfont';
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.grid-education .description .wrapper-projects .projectHolder .project-description {
+  font-size: 18px;
+  font-family: 'regular';
+  color: rgba(0, 0, 0, 0.3);
 }
 /*# sourceMappingURL=Education.css.map */
