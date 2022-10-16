@@ -6,8 +6,12 @@ import Skills from "./Skills";
 import Education from "./Education";
 import WorkExperience from "./WorkExperience";
 import Portfolio from "./Portfolio";
+import github from "../img/github.png";
 
+
+const link = "https://github.com/Sumi-Dumi";
 function Nav() {
+    
     const [icon, clickedIcon] = useState("About");
     return (
         <div>
@@ -17,8 +21,8 @@ function Nav() {
                 <button onClick={() => clickedIcon("Education")}>EDUCATION</button>
                 <button onClick={() => clickedIcon("Work experience")}>WORK EXPERIENCE</button>
                 <button onClick={() => clickedIcon("Portfolio")}>PORTFOLIO</button>
-                <button >
-                    <div></div>
+                <button className="wrapper">
+                    <a href={link} target="_blank" rel="noreferrer"><img alt="" src={github}></img></a>
                     <div></div>
                     <div></div>
                 </button>  
@@ -29,7 +33,6 @@ function Nav() {
                 {icon === "Education" && <Education />}
                 {icon === "Work experience" && <WorkExperience />}
                 {icon === "Portfolio" && <Portfolio />}
-            
             </div>
         </div>  
     );

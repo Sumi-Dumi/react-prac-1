@@ -51,4 +51,8 @@ button {
   letter-spacing: 1.7px;
   font-size: 15px;
 }
+
+button img {
+  width: 30px;
+}
 /*# sourceMappingURL=Main.css.map */
