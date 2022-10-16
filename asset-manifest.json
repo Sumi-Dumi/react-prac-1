@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-prac-1/static/css/main.64f2c950.css",
+    "main.js": "/react-prac-1/static/js/main.43d66971.js",
+    "static/media/design_1.png": "/react-prac-1/static/media/design_1.4c1fac3f8bf22588f60b.png",
+    "static/media/design_4.png": "/react-prac-1/static/media/design_4.9ca3350ecf4c48847386.png",
+    "static/media/design_2.png": "/react-prac-1/static/media/design_2.3405de36e583884a41a9.png",
+    "static/media/design_5.png": "/react-prac-1/static/media/design_5.33639003b17e1758eab4.png",
+    "static/media/restaurant.png": "/react-prac-1/static/media/restaurant.b8793bf3b1eb358492aa.png",
+    "static/media/design_3.png": "/react-prac-1/static/media/design_3.e1b2aa4e259977bc771e.png",
+    "static/media/resume.pdf": "/react-prac-1/static/media/resume.1e868ae40958de769050.pdf",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/react-prac-1/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/mywebsite.png": "/react-prac-1/static/media/mywebsite.4a28f423b4f6d8bd7c5f.png",
+    "static/media/BodoniModa-Italic-VariableFont_opsz,wght.ttf": "/react-prac-1/static/media/BodoniModa-Italic-VariableFont_opsz,wght.525e8b66ba9ece458472.ttf",
+    "static/media/Roboto-Thin.ttf": "/react-prac-1/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
+    "static/media/Roboto-Regular.ttf": "/react-prac-1/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/raspberry pi.png": "/react-prac-1/static/media/raspberry pi.dc7cb8b344a70ed31512.png",
+    "static/media/SQL.png": "/react-prac-1/static/media/SQL.55c412bcca0fd856d8c5.png",
+    "static/media/app.png": "/react-prac-1/static/media/app.5358e0955208b41a0234.png",
+    "static/media/Python.png": "/react-prac-1/static/media/Python.337187f8b997c3fe7341.png",
+    "index.html": "/react-prac-1/index.html",
+    "main.64f2c950.css.map": "/react-prac-1/static/css/main.64f2c950.css.map",
+    "main.43d66971.js.map": "/react-prac-1/static/js/main.43d66971.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64f2c950.css",
+    "static/js/main.43d66971.js"
+  ]
+}
