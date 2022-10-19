@@ -26,17 +26,40 @@
     justify-content: center;
     align-items: flex-end;
     position: fixed;
+    button{
+        display: flex;
+        width: 200px;
+        justify-content: flex-end;
+        padding: 10px;
+        font-family: 'thin-flat';
+        letter-spacing: 1.7px;
+        font-size: 15px;
+        img {
+            width: 30px;
+        }
+    }
 }
 
-button{
-    display: flex;
-    width: 200px;
-    justify-content: flex-end;
-    padding: 10px;
-    font-family: 'thin-flat';
-    letter-spacing: 1.7px;
-    font-size: 15px;
-    img {
-        width: 30px;
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        background-color: $themeGrey;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        button {
+            width: auto;
+            justify-content: center;
+            background-color: $themeGrey;
+        }
     }
+
 }

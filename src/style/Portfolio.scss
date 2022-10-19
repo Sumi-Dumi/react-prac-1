@@ -5,7 +5,8 @@
     src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
 .background{
-    @include background(160vh);
+    @include background();
+    height: 200vh;
 }
 .buttons{
     display: flex;
@@ -79,8 +80,9 @@
     display: flex;
     width: 10%;
     display: flex;
-    margin-right: 3%;
+
     align-items: center;
+    justify-content: center;
     img{
         width: 50%;
     }

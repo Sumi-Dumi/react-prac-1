@@ -11,7 +11,7 @@ function About() {
                 <a href={resume} download="Sumi-Han-resume.pdf">
                     <div className="link-button">RESUME</div>
                 </a>
-                <a href="../resume.pdf"><div className="link-button">CV</div></a>
+
             </div>
             <h3 className="subheading">Front-end developer job seeker with a strong passion for building seamless & graphically aesthetic websites</h3>
             <p>

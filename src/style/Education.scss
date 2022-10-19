@@ -18,7 +18,7 @@
 }
 
 .background{
-    @include background(120vh);
+    @include background();
 }
 
 .grid-education {
@@ -81,4 +81,25 @@
     }
     
     
+}
+
+@media screen and (max-width: 768px){
+    .grid-education {
+        display: grid;
+        grid-template-columns: 1fr;
+        .logo-place{
+            display: flex;
+            height: 150px;
+            img{
+                margin-top: 17px;            
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .description{
+            margin-top: 20px;
+            margin-left: 0;
+        }
+    }
+
 }

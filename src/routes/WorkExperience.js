@@ -3,7 +3,7 @@ import "../style/WorkExperience.css";
 
 function WorkExperience(){
     return(
-        <main className="background">
+        <main className="backgroundEdu">
             <div className="margin"></div>
             <div className="title">WORK EXPERIENCE</div>
             <h3 className="subheading">Akmo Holdings Pty Ltd</h3>

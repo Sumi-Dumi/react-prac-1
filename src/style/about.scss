@@ -19,7 +19,9 @@
 
 
 .background{
-    @include background(100vh);
+    @include background();
+    padding-left: 35%;
+    height: 100vh;
     .margin{
         height: 200px;
     }
@@ -53,4 +55,18 @@
         font-size: 20px;
         line-height: 30px;
     }
+
+
 }
+
+
+@media screen and (max-width: 768px) {
+    .background{
+        padding-left: 10%;
+        height: 100vh;
+        .margin {
+            height: 150px;
+        }
+    }
+    
+} 

@@ -12,9 +12,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #dfdfdf;
-  padding-left: 35%;
   padding-right: 10%;
-  height: 100vh;
 }
 
 .background .grid-skills {
@@ -134,5 +132,21 @@
 
 .background .grid-skills .third-circle div:hover {
   font-size: 23px;
+}
+
+@media screen and (max-width: 768px) {
+  .background .grid-skills {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 400px;
+        grid-template-rows: 400px;
+    margin-top: 50px;
+  }
+  .background .grid-skills .first-circle {
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 100%;
+    height: 400px;
+  }
 }
 /*# sourceMappingURL=Skills.css.map */

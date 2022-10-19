@@ -22,8 +22,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #dfdfdf;
-  padding-left: 35%;
   padding-right: 10%;
+  padding-left: 35%;
   height: 100vh;
 }
 
@@ -84,5 +84,15 @@
   color: rgba(0, 0, 0, 0.35);
   font-size: 20px;
   line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .background {
+    padding-left: 10%;
+    height: 100vh;
+  }
+  .background .margin {
+    height: 150px;
+  }
 }
 /*# sourceMappingURL=about.css.map */

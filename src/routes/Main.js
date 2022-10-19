@@ -11,7 +11,6 @@ import github from "../img/github.png";
 
 const link = "https://github.com/Sumi-Dumi";
 function Nav() {
-    
     const [icon, clickedIcon] = useState("About");
     return (
         <div>
@@ -37,6 +36,8 @@ function Nav() {
         </div>  
     );
 }
+
+
 
 function Main() {
     return (

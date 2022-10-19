@@ -13,20 +13,40 @@
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
 
-.background {
+.backgroundEdu {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #dfdfdf;
-  padding-left: 35%;
   padding-right: 10%;
   height: 150vh;
+  padding-left: 35%;
 }
 
-.background h3 {
+.backgroundEdu .margin {
+  height: 200px;
+}
+
+.backgroundEdu .title {
+  font-family: 'thin-flat';
+  font-size: 30px;
+  letter-spacing: 1.7px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.backgroundEdu .subheading {
+  margin-top: 25px;
+  font-family: 'serif_';
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.backgroundEdu h3 {
   margin-bottom: 10px;
 }
 
-.background h5 {
+.backgroundEdu h5 {
   font-family: regular;
   color: rgba(0, 0, 0, 0.3);
   letter-spacing: 1.5px;
@@ -84,8 +104,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .myRole li {
@@ -94,5 +114,15 @@
   line-height: 20px;
   color: rgba(0, 0, 0, 0.5);
   width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .backgroundEdu {
+    height: 240vh;
+    padding-left: 10%;
+  }
+  .gridForWork {
+    display: block;
+  }
 }
 /*# sourceMappingURL=WorkExperience.css.map */

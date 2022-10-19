@@ -13,8 +13,27 @@
 @import "_mixins.scss";
 @import "_variables.scss";
 
-.background{
-    @include background(150vh);
+.backgroundEdu{
+    @include background();
+    height: 150vh;
+    padding-left: 35% ;
+    .margin{
+        height: 200px;
+    }
+    .title{
+        font-family: 'thin-flat';
+        font-size: 30px;
+        letter-spacing: 1.7px;
+        margin-bottom: 20px;
+        color: $defalutFont;
+    }
+    .subheading{
+        margin-top: 25px;
+        font-family: 'serif_';
+        color: $defalutFont;
+        font-size: 30px;
+        line-height: 40px;
+    }
     h3{
         margin-bottom: 10px;
     }
@@ -56,8 +75,8 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     li{
         margin-bottom: 20px;
@@ -67,4 +86,15 @@
         width: 90%;
 
     }
+}
+@media screen and (max-width: 768px){
+
+    .backgroundEdu{
+        height: 240vh;
+        padding-left: 10%;
+    }
+    .gridForWork{
+        display: block;
+    }
+
 }

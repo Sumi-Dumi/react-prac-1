@@ -12,7 +12,7 @@
 
 
 .background{
-    @include background(100vh);
+    @include background();
     .grid-skills{
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -44,6 +44,23 @@
                 @include circle(80px, 80px, rgb(61, 61, 61));
             }
 
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .background{
+        .grid-skills{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 400px;
+            margin-top: 50px;
+            .first-circle{
+                grid-column: span 2;
+                grid-row: span 1;
+                width: 100%;
+                height: 400px;
+            }
         }
     }
 }
