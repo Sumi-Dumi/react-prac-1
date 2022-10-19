@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-prac-1/static/css/main.64f2c950.css",
-    "main.js": "/react-prac-1/static/js/main.e6e69ece.js",
+    "main.css": "/react-prac-1/static/css/main.b4f139ef.css",
+    "main.js": "/react-prac-1/static/js/main.bad92afb.js",
     "static/media/design_1.png": "/react-prac-1/static/media/design_1.4c1fac3f8bf22588f60b.png",
     "static/media/design_4.png": "/react-prac-1/static/media/design_4.9ca3350ecf4c48847386.png",
     "static/media/design_2.png": "/react-prac-1/static/media/design_2.3405de36e583884a41a9.png",
@@ -19,11 +19,11 @@
     "static/media/app.png": "/react-prac-1/static/media/app.5358e0955208b41a0234.png",
     "static/media/Python.png": "/react-prac-1/static/media/Python.337187f8b997c3fe7341.png",
     "index.html": "/react-prac-1/index.html",
-    "main.64f2c950.css.map": "/react-prac-1/static/css/main.64f2c950.css.map",
-    "main.e6e69ece.js.map": "/react-prac-1/static/js/main.e6e69ece.js.map"
+    "main.b4f139ef.css.map": "/react-prac-1/static/css/main.b4f139ef.css.map",
+    "main.bad92afb.js.map": "/react-prac-1/static/js/main.bad92afb.js.map"
   },
   "entrypoints": [
-    "static/css/main.64f2c950.css",
-    "static/js/main.e6e69ece.js"
+    "static/css/main.b4f139ef.css",
+    "static/js/main.bad92afb.js"
   ]
 }
