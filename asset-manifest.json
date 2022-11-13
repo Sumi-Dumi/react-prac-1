@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-prac-1/static/css/main.b4f139ef.css",
-    "main.js": "/react-prac-1/static/js/main.bad92afb.js",
+    "main.js": "/react-prac-1/static/js/main.8602ef3c.js",
     "static/media/design_1.png": "/react-prac-1/static/media/design_1.4c1fac3f8bf22588f60b.png",
     "static/media/design_4.png": "/react-prac-1/static/media/design_4.9ca3350ecf4c48847386.png",
     "static/media/design_2.png": "/react-prac-1/static/media/design_2.3405de36e583884a41a9.png",
@@ -15,15 +15,16 @@
     "static/media/Roboto-Thin.ttf": "/react-prac-1/static/media/Roboto-Thin.a732a12eb07742232407.ttf",
     "static/media/Roboto-Regular.ttf": "/react-prac-1/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/raspberry pi.png": "/react-prac-1/static/media/raspberry pi.dc7cb8b344a70ed31512.png",
+    "static/media/CV.pdf": "/react-prac-1/static/media/CV.309ec5aaa9654880bbe9.pdf",
     "static/media/SQL.png": "/react-prac-1/static/media/SQL.55c412bcca0fd856d8c5.png",
     "static/media/app.png": "/react-prac-1/static/media/app.5358e0955208b41a0234.png",
     "static/media/Python.png": "/react-prac-1/static/media/Python.337187f8b997c3fe7341.png",
     "index.html": "/react-prac-1/index.html",
     "main.b4f139ef.css.map": "/react-prac-1/static/css/main.b4f139ef.css.map",
-    "main.bad92afb.js.map": "/react-prac-1/static/js/main.bad92afb.js.map"
+    "main.8602ef3c.js.map": "/react-prac-1/static/js/main.8602ef3c.js.map"
   },
   "entrypoints": [
     "static/css/main.b4f139ef.css",
-    "static/js/main.bad92afb.js"
+    "static/js/main.8602ef3c.js"
   ]
 }
